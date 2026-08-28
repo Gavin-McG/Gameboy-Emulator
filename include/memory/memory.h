@@ -10,7 +10,7 @@ namespace gameboy {
     using ROM = basic_memory_device<StartAddr, EndAddr, true, false>;
 
     template<addr16_t StartAddr, addr16_t EndAddr>
-    using RAM = basic_memory_device<StartAddr, EndAddr, true, false>;
+    using RAM = basic_memory_device<StartAddr, EndAddr, true, true>;
 
     template<addr16_t StartAddr, addr16_t EndAddr>
     using Unused = basic_memory_device<StartAddr, EndAddr, false, false>;

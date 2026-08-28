@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "memory/memory.h"
 
 int main(int argc, char** argv) {
